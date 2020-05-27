@@ -1,0 +1,330 @@
+p,img,ul,li,h1,h2,h3,h4,h5,h6,a,p,hr{
+	padding: 0px;margin: 0px;
+}
+body{
+direction: rtl;
+}
+/****************************************************Start Home Page*************************************/
+/****************************Start Nav Area*****************************************/
+nav{
+	background-color: #ececec;
+	
+	padding: 5px;
+	
+}
+nav .col-3{
+	padding: 30px 0px;
+}
+nav .col-3 i {
+	font-size: 36px;
+	color: #ec3454;
+}
+#logo img{
+	width: 150px;
+}
+/****************************End Nav Area*****************************************/
+/****************************Start Header Area*****************************************/
+header{
+	background-image: url("Assets/img/header.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 100px 0px 200px 0px;	
+}
+header .sofra {
+	font-size: 140px;
+	color: white;
+	transform: rotate(-20deg);
+	text-align: center;
+	
+}
+header p{
+	color: white;
+	text-align: center;
+	font-size: 28px;
+	padding: 30px;
+}
+header .container a {
+	color:white;
+	padding: 10px 30px;
+	border-radius: 20px;
+	background: linear-gradient(180deg, rgba(227,47,82,1) 30%, rgba(169,14,75,1) 90%);
+	text-decoration: none;
+}
+@media only screen and (max-width:375px){
+	header .sofra{
+		font-size: 100px;
+	}
+}
+/****************************End Header Area*****************************************/
+/****************************Start SearchByArea Area*****************************************/
+.SearchByArea {
+	padding: 30px 0px;
+	background-image: url("Assets/img/Group 1034.jpg");
+}
+.SearchByArea form{
+	padding: 30px 0px;
+}
+.SearchByArea form p{
+	font-size: 32px;
+	color:black;
+	padding: 30px 0px;
+}
+.SearchByArea form select{
+	width: 90%;
+	border-radius: 40px;
+	color:black;
+	padding: 10px 50px 10px 0px;
+	box-sizing: border-box;	
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.SearchByArea .inputwithicon {
+	position: relative;
+}
+.SearchByArea .inputwithicon i {
+	position: absolute;
+	left: 20px;
+	top:10px;
+	color:#ec3454;
+	font-size: 26px;
+}
+.SearchByArea .cards {
+	padding: 10px;
+	
+}
+.SearchByArea .cards a {
+	text-decoration: none;
+	color:black;
+}
+.SearchByArea .col-md-12{
+	background-color: white;
+	border-radius: 20px;
+}
+.SearchByArea .cards .star-rate i {
+	color: red;
+	font-size: 22px;
+}
+.SearchByArea .cards .star-rate{
+	padding-bottom: 12px;
+}
+.SearchByArea .cards h4{
+	padding: 30px 0px;
+	color: #ec3454;
+}
+.SearchByArea .cards p {
+	padding: 10px 0px;
+}
+.SearchByArea .cards .col-4 {
+	padding: 120px 0px;
+}
+.SearchByArea .cards .col-4 i {
+	color:#16bf4e;
+	margin: 5px;
+}
+@media only screen and (max-width:1200px){
+	.SearchByArea .cards img {
+	margin: 50px 0px;
+	}
+}
+@media only screen and (max-width:991px){
+	.SearchByArea .cards img {
+	margin: 100px 0px;
+	}
+	.SearchByArea form select {
+    width: 100%;
+    padding: 10px 10px 10px 0px;
+    font-size: 14px;
+}
+	.SearchByArea .cards h4{
+		font-size: 1.2rem;
+	}
+	.SearchByArea .cards .col-md-2{
+		font-size: 15px;
+	}
+	.SearchByArea .cards .star-rate i {
+    font-size: 18px;
+	}
+	.SearchByArea .cards .col-4 i {
+    color: #16bf4e;
+    margin: 2px;
+    font-size: 12px;
+	}
+}
+@media only screen and (max-width:767px){
+	.SearchByArea select{
+		margin-bottom: 20px;
+	}
+	.SearchByArea .cards img {
+    display: block;
+    margin: auto;
+	}
+	.SearchByArea .cards h4{
+		font-size: 1.5rem;
+	}
+	.SearchByArea .cards .star-rate i {
+    font-size: 22px;
+	}
+	.SearchByArea .cards .col-4 {
+    padding: 90px 0px;
+    font-size: 22px;
+	}
+	.SearchByArea .cards .col-4 i {
+    font-size: 18px;
+	}
+}
+/****************************End SearchByArea Area*****************************************/
+/****************************Start offer Area*****************************************/
+.offer{
+	padding: 80px 0px;
+	
+}
+.offer .offer-box{
+	background-image: url("Assets/img/offers-bg.jpg");
+	background-position: center center;
+	border-radius: 20px;
+	background-size: cover;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	color:white;
+	font-size: 21px;
+	padding: 45px 15px;
+	line-height: 40px;
+}
+.offer .offer-box .moreinfo a {
+	color:white;
+	padding: 10px 30px;
+	border-radius: 20px;
+	background: linear-gradient(180deg, rgba(227,47,82,1) 30%, rgba(169,14,75,1) 90%);
+	text-decoration: none;
+	display: inline-flex;
+	margin: 20px 0px;
+}
+.offer img {
+	max-width: 100%;
+}
+@media only screen and (max-width:991){
+	.offer img {
+	max-width: 115%;
+}
+}
+@media only screen and (max-width:768px){
+	.offer .rightsection {
+	display: none;
+}
+}
+
+/****************************End offer Area*****************************************/
+/****************************Start Download Area*****************************************/
+.download{
+	padding: 120px 0px 0px 0px;
+	background-image: url("Assets/img/Group 1035.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.download h1{
+	text-align: right;
+	color:white;
+}
+.download a{
+	color:white;
+	text-decoration: none;
+	font-size: 28px;
+}
+.download .moreinfo{
+	margin-top: 150px;
+	padding: 20px 80px;
+	display: inline-block;
+	float: right;
+	border-radius: 20px;
+	background-image: url("Assets/img/download button.png");
+}
+@media only screen and (max-width:768px){
+	.download .leftsection {
+	display: none;
+	}
+	.download .moreinfo {
+		margin-bottom: 30px;
+		padding: 20px 60px;
+
+	}
+}
+
+/****************************End Download Area*****************************************/
+/****************************Start footer Area*****************************************/
+.footer{
+	background-image: url("Assets/img/footerbg.png");
+	padding: 30px 0px;
+	text-align: right;
+}
+.footer  .fa-edit{
+	color:white;
+	font-size: 30px;
+	float: right;
+}
+.footer  h3{
+	color:white;
+	text-align: right;
+	margin-bottom: 20px;
+	padding: 0px 5px 5px 0px;
+}
+.footer p{
+	color:white;
+	text-align: right;
+}
+.footer i {
+	color:white;
+	font-size: 30px;
+	padding: 10px;
+}
+/****************************End footer Area*****************************************/
+/****************************************************End Home Page*************************************/
+/****************************************************Start ResturantBranch Page*************************************/
+/****************************Start branch Area*****************************************/
+.branch{
+	background-image: url("Assets/img/Group 1038.jpg");
+	padding: 100px 0px;
+}
+.branch img{
+	display: block;
+	margin: 0px auto;
+}
+.branch h1{
+	padding: 40px 0px;
+	color:white;
+}
+.branch .star-rate{
+	padding: 10px 30px;
+	background-color: white;
+	display: inline-block;
+	border-radius: 20px;
+}
+.branch .star-rate i {
+	color: red;
+	font-size: 22px;
+}
+/****************************End branch Area*****************************************/
+/****************************Start meals Area*****************************************/
+.meals{
+	background-image: url("Assets/img/Group 1034.jpg");
+	padding: 30px 0px;
+}
+.meals .cards{
+	padding: 0px;
+	padding-bottom: 15px;
+	background-color: white;
+	float: right;
+}
+.meals .cards p{
+	text-align: right;
+}
+.meals .moreinfo{
+	padding: 20px 80px;
+	display: inline-block;
+	color:white;
+	border-radius: 20px;
+	background-image: url("Assets/img/download button.png");
+}
+/****************************End meals Area*****************************************/
+/****************************************************End ResturantBranch Page*************************************/
